@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+		body {
+			background-color: #f8f8f8;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		h1 {
+			font-size: 2.5em;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+		
+		form {
+			background-color: #fff;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			padding: 20px;
+		}
+		
+		input[type=text], textarea {
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			padding: 10px;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<h4>글 쓰기</h4>
+	<form action="getboard.jsp" method="get">
+		작성자: <input type="text", name="name" style=width:80px> <br>
+		
+		내용 <br>
+		<textarea  type="text", name="content" style=width:300px;height:200px;> </textarea> <br>
+	
+		<input type="submit" value="작성">
+	</form>
+</body>
+</html>
