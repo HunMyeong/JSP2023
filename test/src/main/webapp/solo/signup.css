@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body{
+    margin: 0px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 3%;
+    font-style: italic;
+}
+
+.Categories{
+    margin-top: 20px;
+}
+
+div.Login_Input input {
+    width: 10%;
+    height: 20px;
+}
+
+div.Login_Input span {
+    font-style: oblique;
+}
+
+#submit {
+    font-size: medium;
+    width: 7%;
+    background-color: #03c75a;
+    margin-top: 15px;
+}
+
+button {
+    font-size: medium;
+    width: 7%;
+    background-color: #03c75a;
+    margin-top: 20px;
+}

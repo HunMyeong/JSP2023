@@ -29,6 +29,7 @@
 	
 	ResultSet rs = stmt.executeQuery(sql);
 	
+	//5. 반환된 데이터를 출력.
 	while(rs.next()){
 		out.println(rs.getString("name"));
 		out.println(rs.getString("id"));
